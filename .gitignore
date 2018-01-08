@@ -1,3 +1,9 @@
+config.py
+server.crt
+server.csr
+server.key
+server.key.org
+*.py[cod]
 .env
 __pycache__/
 *.egg-info/
