@@ -1,0 +1,12 @@
+attrs==17.4.0
+autobahn==17.10.1
+Automat==0.6.0
+constantly==15.1.0
+ecdsa==0.13
+hyperlink==17.3.1
+incremental==17.5.0
+six==1.11.0
+-e git+https://github.com/yenten/stratum.git@ae962845315e91772e86001f342cc606a9f52eb4#egg=stratum
+Twisted==17.9.0
+txaio==2.8.2
+zope.interface==4.4.3

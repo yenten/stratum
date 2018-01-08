@@ -1,20 +1,12 @@
-#!/usr/bin/env python
-from distribute_setup import use_setuptools
-use_setuptools()
+from setuptools import setup, find_packages
 
-#python setup.py sdist upload
 
-from setuptools import setup
-from stratum import version
-
-setup(name='stratum',
-      version=version.VERSION,
-      description='Stratum server implementation based on Twisted',
-      author='slush',
-      author_email='info@bitcion.cz',
-      url='http://blog.bitcoin.cz/stratum',
-      packages=['stratum',],
-      py_modules=['distribute_setup',],
-      zip_safe=False,
-      install_requires=['twisted', 'ecdsa', 'autobahn',]
-     )
+setup(
+    name="stratum",
+    version='0.3.0',
+    description="Stratum server for YescriptR16",
+    author="yenten",
+    author_email="yenten256@gmail.com",
+    url="http://github.com/yenten",
+    packages=find_packages(),
+)
